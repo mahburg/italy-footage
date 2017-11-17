@@ -23,7 +23,7 @@ class App extends Component {
       <div className="App">
 
         <div className="bg-video-container">
-          <video className="bg-video" loop="1" autoPlay="" playsInline="" muted="" data-bgvideo="" poster="//stockfootage.com/wp-content/uploads/2016/11/Shanghai-stockfootage.png" data-bgvideo-fade-in="500" data-bgvideo-pause-after="120" data-bgvideo-show-pause-play="false" data-bgvideo-pause-play-x-pos="right" data-bgvideo-pause-play-y-pos="top">
+          <video className="bg-video" loop="1" autoPlay="1" playsInline="" muted="1" data-bgvideo="" poster="//stockfootage.com/wp-content/uploads/2016/11/Shanghai-stockfootage.png" data-bgvideo-fade-in="500" data-bgvideo-pause-after="120" data-bgvideo-show-pause-play="false" data-bgvideo-pause-play-x-pos="right" data-bgvideo-pause-play-y-pos="top">
             <source src="https://stockfootage.com/wp-content/uploads/2016/11/stockfootage-video-clips.mp4" type="video/mp4"/>
             <source src="https://stockfootage.com/wp-content/uploads/2016/11/stockfootage-video-clips.mp4" type="video/webm"/>
             <source src="https://stockfootage.com/wp-content/uploads/2016/11/stockfootage-video-clips.mp4" type="video/ogg"/>
