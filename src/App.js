@@ -23,7 +23,7 @@ class App extends Component {
       <div className="App">
 
         <div className="bg-video-container">
-          <video className="bg-video" loop="1" autoplay="" playsinline="" muted="" data-bgvideo="" poster="//stockfootage.com/wp-content/uploads/2016/11/Shanghai-stockfootage.png" data-bgvideo-fade-in="500" data-bgvideo-pause-after="120" data-bgvideo-show-pause-play="false" data-bgvideo-pause-play-x-pos="right" data-bgvideo-pause-play-y-pos="top">
+          <video className="bg-video" loop="1" autoPlay="" playsInline="" muted="" data-bgvideo="" poster="//stockfootage.com/wp-content/uploads/2016/11/Shanghai-stockfootage.png" data-bgvideo-fade-in="500" data-bgvideo-pause-after="120" data-bgvideo-show-pause-play="false" data-bgvideo-pause-play-x-pos="right" data-bgvideo-pause-play-y-pos="top">
             <source src="https://stockfootage.com/wp-content/uploads/2016/11/stockfootage-video-clips.mp4" type="video/mp4"/>
             <source src="https://stockfootage.com/wp-content/uploads/2016/11/stockfootage-video-clips.mp4" type="video/webm"/>
             <source src="https://stockfootage.com/wp-content/uploads/2016/11/stockfootage-video-clips.mp4" type="video/ogg"/>
@@ -47,7 +47,7 @@ class App extends Component {
         </div>
 
         <div className="info-sec">
-          <section><h1>HD and 4K UHD Stock Video Footage Marketplace (Contact us for 4K)</h1></section>
+          <section><h1>Italy <a className="rf" href="https://en.wikipedia.org/wiki/Royalty-free">Royalty-free</a> Stock Video Footage Marketplace</h1></section>
           <div className="hr-red"/>
           <section className="catagory-sec">
             <h1>Browse by Catagory</h1>
@@ -71,12 +71,20 @@ class App extends Component {
           <section className="contributors">
             <h1><span className="contrib-show">Contributors Showcase</span> - Inspired to Create</h1>
             <div className="contributor-previews">
-              <div className="contributor-preview"></div>
-              <div className="contributor-preview"></div>
-              <div className="contributor-preview"></div>
+              <div className="contributor-preview">
+                <iframe title="1" width="350" height="195" src="https://www.youtube.com/embed/ydJ04HAKYjk" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div className="contributor-preview">
+                <iframe title="2" width="350" height="195" src="https://www.youtube.com/embed/a9p5US3v25s" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div className="contributor-preview">
+                <iframe title="3" width="350" height="195" src="https://www.youtube.com/embed/M-2N_YdzxV4" frameborder="0" allowfullscreen></iframe>
+              </div>
             </div>
+            <br/>
             <p>Find thousands of HD and 4K (ultra HD) stock videos for commercials, movies, news clips, business projects, and more.  Contribute and sell your stock video footage through our online community.  Learn filming and photography techniques from the pros in our specialized film school.</p>
           </section>
+          <br/>
         </div>
         <footer>
           <p>ItalyFootage.com is a website by <a href="https://stockfootage.com">StockFootage.com</a></p>
