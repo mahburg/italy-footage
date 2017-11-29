@@ -41,7 +41,7 @@ class App extends Component {
             <h1>ItalyFootage.com</h1>
             <img src="https://stockfootage.com/wp-content/uploads/2016/10/RedWhite_DS-380x252.png" alt=""/>
             <form className="search" onSubmit={e=>this.search(e)}>
-              <input placeholder="Search" value={this.state.search} type="text"/>
+              <input placeholder="Search" onChange={e=>this.handleChange(e.target.value)} value={this.state.search} type="text"/>
             </form>
           </div>
         </div>
