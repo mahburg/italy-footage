@@ -72,13 +72,13 @@ class App extends Component {
             <h1><span className="contrib-show">Contributors Showcase</span> - Inspired to Create</h1>
             <div className="contributor-previews">
               <div className="contributor-preview">
-                <iframe title="1" width="350" height="195" src="https://www.youtube.com/embed/ydJ04HAKYjk" frameborder="0" allowfullscreen></iframe>
+                <iframe title="1" width="350" height="195" src="https://www.youtube.com/embed/ydJ04HAKYjk" frameBorder="0" allowFullScreen></iframe>
               </div>
               <div className="contributor-preview">
-                <iframe title="2" width="350" height="195" src="https://www.youtube.com/embed/a9p5US3v25s" frameborder="0" allowfullscreen></iframe>
+                <iframe title="2" width="350" height="195" src="https://www.youtube.com/embed/a9p5US3v25s" frameBorder="0" allowFullScreen></iframe>
               </div>
               <div className="contributor-preview">
-                <iframe title="3" width="350" height="195" src="https://www.youtube.com/embed/M-2N_YdzxV4" frameborder="0" allowfullscreen></iframe>
+                <iframe title="3" width="350" height="195" src="https://www.youtube.com/embed/M-2N_YdzxV4" frameBorder="0" allowFullScreen></iframe>
               </div>
             </div>
             <br/>
