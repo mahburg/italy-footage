@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Footer from './components/Footer/Footer';
+
 import './App.css';
 
 class App extends Component {
@@ -70,25 +72,39 @@ class App extends Component {
           <div className="hr-red"/>
           <section className="contributors">
             <h1><span className="contrib-show">Contributors Showcase</span> - Inspired to Create</h1>
+
+
             <div className="contributor-previews">
               <div className="contributor-preview">
                 <iframe title="1" width="350" height="195" src="https://www.youtube.com/embed/ydJ04HAKYjk" frameBorder="0" allowFullScreen></iframe>
               </div>
               <div className="contributor-preview">
-                <iframe title="2" width="350" height="195" src="https://www.youtube.com/embed/a9p5US3v25s" frameBorder="0" allowFullScreen></iframe>
+                {/* <iframe title="2" width="350" height="195" src="https://www.youtube.com/embed/a9p5US3v25s" frameBorder="0" allowFullScreen></iframe> */}
+                <iframe src="https://player.vimeo.com/video/60775799" width="350" height="195" frameborder="0" webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
               </div>
               <div className="contributor-preview">
                 <iframe title="3" width="350" height="195" src="https://www.youtube.com/embed/M-2N_YdzxV4" frameBorder="0" allowFullScreen></iframe>
               </div>
             </div>
+
+            <div className="mobile-contributor-previews">
+              <div className="contributor-preview">
+                <iframe title="1" width="250" height="150" src="https://www.youtube.com/embed/ydJ04HAKYjk" frameBorder="0" allowFullScreen></iframe>
+              </div>
+              <div className="contributor-preview">
+                <iframe title="2" width="250" height="150" src="https://www.youtube.com/embed/a9p5US3v25s" frameBorder="0" allowFullScreen></iframe>
+              </div>
+              <div className="contributor-preview">
+                <iframe title="3" width="250" height="150" src="https://www.youtube.com/embed/M-2N_YdzxV4" frameBorder="0" allowFullScreen></iframe>
+              </div>
+            </div>
+
             <br/>
             <p>Find thousands of HD and 4K (ultra HD) stock videos for commercials, movies, news clips, business projects, and more.  Contribute and sell your stock video footage through our online community.  Learn filming and photography techniques from the pros in our specialized film school.</p>
           </section>
           <br/>
         </div>
-        <footer>
-          <p>ItalyFootage.com is a website by <a href="https://stockfootage.com">StockFootage.com</a></p>
-        </footer>
+        <Footer/>
       </div>
     );
   }
