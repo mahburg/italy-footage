@@ -28,9 +28,9 @@ class Footer extends Component{
                     <div className="link-sec">
                         <h3>FOLLOW US</h3>
                         <div className="social-links">
-                            <a target="_blank" href="https://www.facebook.com/stockfootageinc"><i className="fa fa-facebook fa-lg"></i></a>
-                            <a target="_blank" href="https://twitter.com/stockfootageinc"><i className="fa fa-twitter fa-lg"></i></a>
-                            <a target="_blank" href="https://www.youtube.com/user/HQMEDIA"><i className="fa fa-youtube-play fa-lg"></i></a>
+                        <a href="https://www.facebook.com/stockfootageinc" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook fa-lg"></i></a>
+                            <a href="https://twitter.com/stockfootageinc" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter fa-lg"></i></a>
+                            <a href="https://www.youtube.com/user/HQMEDIA" target="_blank" rel="noopener noreferrer"><i className="fa fa-youtube-play fa-lg"></i></a>
                         </div>
                     </div>
                 </section>
